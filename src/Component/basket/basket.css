@@ -1,0 +1,31 @@
+body {
+  width: 100%;
+  height: 100%;
+}
+body .wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+}
+body .wrapper .list-dog {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 40px;
+  width: 100%;
+  height: 60px;
+  color: #b3b2b2;
+  border: 1px solid gray;
+}
+body .wrapper .basket-null {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 120px;
+  font-size: 100px;
+}

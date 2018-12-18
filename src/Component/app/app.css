@@ -1,0 +1,27 @@
+body {
+  width: 100%;
+  height: 100%;
+  background: #f7f7f7;
+}
+body .container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+body .container ul {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+body .container ul .nothing-dog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  width: 100%;
+  height: 100%;
+  font-size: 50px;
+}

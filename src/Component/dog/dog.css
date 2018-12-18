@@ -1,0 +1,58 @@
+.container-dog {
+  border: 1px solid #303030;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  max-width: 250px;
+  min-height: 450px;
+  flex-wrap: wrap;
+  margin: 40px;
+}
+.container-dog .container-img {
+  display: flex;
+  width: 248px;
+  height: 300px;
+}
+.container-dog .container-text {
+  width: 100%;
+  margin-bottom: 5px;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.container-dog .container-text .container-name {
+  display: flex;
+  padding: 3px;
+  font-weight: bold;
+}
+.container-dog .container-text .container-author {
+  display: flex;
+  padding: 3px;
+}
+.container-dog .container-cost {
+  display: flex;
+}
+.container-dog .link-current-dog {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  width: 240px;
+  height: 40px;
+}
+.container-dog .link-current-dog .btn {
+  width: 240px;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 30px;
+}
+.container-dog .basket {
+  margin-right: 5px;
+  cursor: pointer;
+}
+.container-dog .basket button {
+  cursor: pointer;
+}
+.container-dog .container-cost {
+  font-weight: bold;
+}
