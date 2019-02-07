@@ -16,13 +16,3 @@ describe('test', ()=> {
             )
     })
 });
-
-const sum = (a, b) => {
-    return a + b;
-}
-
-describe('test', ()=> {
-    it('first test', ()=> {
-        expect(sum(5,5)).toEqual(10)
-    })
-});
